@@ -20,4 +20,13 @@
 # c = int(input("Введите 3 сторону: "))
 # p = a + b + c
 # print("Периметр треугольника: ",p)
-hrhte
+
+
+number = int(input("Введите номер пальца правой руки: "))
+
+if number == 1:
+    print("Большой палец")
+elif number == 2:
+    print("Указательный")
+else:
+    print("123124")
