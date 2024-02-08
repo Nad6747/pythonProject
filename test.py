@@ -28,5 +28,11 @@ if number == 1:
     print("Большой палец")
 elif number == 2:
     print("Указательный")
+elif number == 3:
+    print("Средний")
+elif number == 4:
+    print("Безымянный")
+elif number == 5:
+    print("Мизинец")
 else:
-    print("123124")
+    print("12")
