@@ -21,18 +21,40 @@
 # p = a + b + c
 # print("Периметр треугольника: ",p)
 
+#
+# number = int(input("Введите номер пальца правой руки: "))
+#
+# if number == 1:
+#     print("Большой палец")
+# elif number == 2:
+#     print("Указательный")
+# elif number == 3:
+#     print("Средний")
+# elif number == 4:
+#     print("Безымянный")
+# elif number == 5:
+#     print("Мизинец")
+# else:
+#     print("12")
 
-number = int(input("Введите номер пальца правой руки: "))
+monday = int(input("Как проведем этот день"))
+if monday == 1:
+    print("Работа")
+    step = int(input("Какая работа? 1 - сложная или 2 - простая?"))
+    if step == 1:
+        print("Сложная")
+        step2 = int(input("Если работа сложная? 1- Шкаф или 2- Кухня"))
+        if step2 == 1:
+            print("Молодец")
+        elif step2 == 2:
+            print("Двойной молодец")
+    elif step == 2:
+        print("Простая")
+        step2 = int(input("Eсли работа простая? 1-Вешалка или 2-Полка "))
+        if step2 == 1:
+            print("Плохо")
+        elif step2 == 2:
+            print("Очень плохо")
 
-if number == 1:
-    print("Большой палец")
-elif number == 2:
-    print("Указательный")
-elif number == 3:
-    print("Средний")
-elif number == 4:
-    print("Безымянный")
-elif number == 5:
-    print("Мизинец")
-else:
-    print("12")
+elif monday == 2:
+       print("Выходной")
