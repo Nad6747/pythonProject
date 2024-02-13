@@ -37,24 +37,38 @@
 # else:
 #     print("12")
 
-monday = int(input("Как проведем этот день"))
+monday = int(input("Как проведем этот день?"))
 if monday == 1:
     print("Работа")
-    step = int(input("Какая работа? 1 - сложная или 2 - простая?"))
+    step = int(input("Какая работа? 1 - сложная или 2 - простая"))
     if step == 1:
         print("Сложная")
-        step2 = int(input("Если работа сложная? 1- Шкаф или 2- Кухня"))
+        step2 = int(input("Если работа сложная? 1 - Шкаф или 2 - кухня "))
         if step2 == 1:
             print("Молодец")
         elif step2 == 2:
             print("Двойной молодец")
     elif step == 2:
         print("Простая")
-        step2 = int(input("Eсли работа простая? 1-Вешалка или 2-Полка "))
+        step2 = int(input("Если работа простая? 1 - Вешалка или 2 - Полка"))
         if step2 == 1:
             print("Плохо")
         elif step2 == 2:
             print("Очень плохо")
-
-elif monday == 2:
-       print("Выходной")
+if monday == 2:
+    print("Выходной")
+    step = int(input("Что мы делали в выходной? 1 - отдых или 2 - дом"))
+    if step == 1:
+        print("Отдых")
+        step2 = int(input("Если отдых 1 - кино или 2 - парк"))
+        if step2 == 1:
+            print("Посмотрели хороший фильм")
+        elif step2 == 2:
+            print("Покатались на карусели")
+    elif step == 2:
+        print("Дом")
+        step2 = int(input("Дом:1 - уборка или 2- стирка"))
+        if step2 == 1:
+            print("Убрали всюквартиру")
+        elif step2 == 2:
+            print("Перестирали все белье")
