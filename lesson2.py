@@ -34,12 +34,29 @@
 #
 #     print(a[3])
 
-print(f"Сегодня у вас {day},что это {day2} и сейчас такое то время -{time}")
 #
 
-print("Привет")
-input("Введите число")
-n = []
-print(n)
-while n = =
+# print("Привет")
+# input("Введите число")
+# n = []
+
+# i = 2
+# if i == 2:
+#     print("Истина")
+# else:
+#     print("Ложь")
+
+
+dic = {}
+mass = ["ira",'sveta',"nata",'ivan']
+mass2 =["25","37","45","30"]
+count = 0
+while count < len(mass):
+    dic[mass[count]] = mass2[count]
+    count += 2
+
+print(dic)
+
+
+
 
