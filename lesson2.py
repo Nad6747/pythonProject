@@ -47,16 +47,13 @@
 #     print("Ложь")
 
 
-dic = {}
-mass = ["ira",'sveta',"nata",'ivan']
-mass2 =["25","37","45","30"]
+
+
+
+streng = "Привет"
+simbal = 'и'
 count = 0
-while count < len(mass):
-    dic[mass[count]] = mass2[count]
-    count += 2
-
-print(dic)
-
-
-
-
+for item in streng:
+    if item == simbal:
+        count += 1
+print(f"В данной строке символ '{simbal}' встречается - {count} раз")
