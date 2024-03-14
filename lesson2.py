@@ -47,13 +47,15 @@
 #     print("Ложь")
 
 
+# count_year = int(input("Введите количество лет"))
+# count_days = count_year * 365
+# hourse = count_days * 24
+# minutes = hourse * 60
+# seconds = minutes * 60
+#
+# print(f"B {count_days} дней у нас:")
+# print(f"{hourse} часов")
+# print(f"{minutes} минут")
+# print(f"{seconds} секунд")
 
 
-
-streng = "Привет"
-simbal = 'и'
-count = 0
-for item in streng:
-    if item == simbal:
-        count += 1
-print(f"В данной строке символ '{simbal}' встречается - {count} раз")
